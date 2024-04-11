@@ -5,6 +5,7 @@ using namespace std;
 string remove_char_except_alphabets(string s){
     string new_string=" ";
 for(int i =0; i <s.size();i++){
+    s[i]=tolower(s[i]);
     if(s[i]>='a'&&s[i]<='z'){
         new_string+=s[i];
     }
