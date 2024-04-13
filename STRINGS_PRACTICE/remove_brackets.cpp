@@ -6,7 +6,8 @@ string remove_brackets(string s){
     string new_string=" ";
     for(int i =0; i <s.size();i++)
     {
-        if(s[i]!='{'&&s[i]!='}'&&s[i]!='['&&s[i]!=']'&&s[i]!='<'&&s[i]!='>') // 
+        if(s[i]!='{'&&s[i]!='}'&&s[i]!='['&&s[i]!=']'&&s[i]!='<'&&s[i]!='>') //  ander ki condition har koi check hogi 
+        //agar hum or lagte toh ek he condition match hote aur braces wali string he new string m storee hojate
         new_string+=s[i];
     }
     return new_string;
